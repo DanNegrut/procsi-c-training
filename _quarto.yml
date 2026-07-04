@@ -1,0 +1,12 @@
+project:
+  type: default
+  render:
+    - schedule.qmd
+    - days/*.qmd
+
+# Notes:
+# - `quarto render` (no file) builds the student-facing schedule plus every
+#   day-brief deck under days/ in one pass.
+# - Files whose name starts with "_" (e.g. days/_brief-template.qmd) are
+#   ignored by the project, so the template is never rendered as a deck.
+# - Each deck sets its own `format: revealjs` and reuses the shared theme.scss.

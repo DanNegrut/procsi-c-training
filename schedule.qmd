@@ -1,0 +1,119 @@
+---
+title: "PROCSI C Training"
+subtitle: "Two-Week Summer Camp, Summer 2026"
+author: "Dan Negrut"
+date: 2026-07-06
+format:
+  revealjs:
+    theme: [default, theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  UW-Madison"
+    embed-resources: true
+---
+
+## How the camp works {.smaller}
+
+- Each **morning**, a short brief: today's topic, your target, and where to start. Then good luck.
+- You work in **teams**, hands-on, all day. **Claude is your always-on tutor.**
+- Late afternoon (**3:30 to 4:30**), each team gives a friendly **~10-minute** talk: how far you got and what you learned.
+- End every talk with your team's **quote or joke of the day**.
+- **No grades, no quizzes.** Discover new things, make new friends, and enjoy a little friendly competition.
+
+## Teams
+
+- We pick **5 captains**. Captains take turns (round-robin) drafting teammates into **5 teams**.
+- **New teams each day**, so you keep meeting new people.
+- Teams compete good-naturedly; at day's end, everyone **votes for a favorite**.
+- The only stakes are bragging rights and fun.
+
+## Before you start
+
+- Bring a **laptop** (at least one per team is plenty).
+- Create a free **Onshape** account: it runs in the browser, nothing to install.
+- We install **Miniforge (conda)** and **PyChrono** together, no prior setup needed.
+- Curiosity required; experience not.
+
+# Week 1
+
+## Week 1 at a glance
+
+| Day | Focus |
+|-----|-------|
+| Mon, Jul 6  | Welcome, College of Engineering, meet everyone |
+| Tue, Jul 7  | Command line and bash; meet Claude |
+| Wed, Jul 8  | Python (conda) and a little git |
+| Thu, Jul 9  | Blender: render your first image |
+| Fri, Jul 10 | Onshape mechanism, then render it in Blender |
+
+## Monday, July 6
+
+- CSULA cohort arriving late
+- [AM, 1153ME]{.am} College of Engineering at UW-Madison; how the camp works
+- [PM, 1153ME]{.pm} Get to know each other; draft the first teams
+- [PM]{.pm} Ice cream expedition at Memorial Union
+
+## Tuesday, July 7
+
+- [AM]{.am} The command line and bash: files, folders, navigation; `git clone` as just another command
+- [AM]{.am} Meet Claude, your tutor for the whole camp
+- [PM]{.pm} Hands-on in teams; ~10-minute talks and the first quote or joke of the day
+
+## Wednesday, July 8
+
+- [AM]{.am} Install Miniforge (conda); Python basics: variables, loops, functions, arrays
+- [AM]{.am} Just-enough git: `add`, `commit`, `push` to save your work
+- [PM]{.pm} Python exercises with Claude; team talks
+
+## Thursday, July 9
+
+- [AM]{.am} Blender basics; render a still image
+- [PM]{.pm} Teams render a scene; team talks
+- [PM]{.tour} Lab tour
+
+## Friday, July 10
+
+- [AM]{.am} Onshape: build a simple mechanism (slider-crank or four-bar); export
+- [PM]{.pm} Import the CAD part into Blender, set a scene, render; team talks
+
+# Week 2
+
+## Week 2 at a glance
+
+| Day | Focus |
+|-----|-------|
+| Mon, Jul 13 | What does "simulate" mean? The sliding block and forward Euler |
+| Tue, Jul 14 | Turn the math into a Blender movie of the block |
+| Wed, Jul 15 | PyChrono: the same block for real, plus wow demos |
+| Thu, Jul 16 | AI-assisted modeling with RAG (chrono-rag) |
+| Fri, Jul 17 | Showcase, vote, and State Street |
+
+## Monday, July 13
+
+- [AM]{.am} The sliding block: mass m, force f, over 10 s; the equation of motion; forward Euler
+- [PM]{.pm} Teams code the Euler loop in Python and plot position vs time; team talks
+- [PM]{.tour} Lab tour
+
+## Tuesday, July 14
+
+- [AM]{.am} From numbers to motion: turn the Euler output (a CSV) into a Blender keyframe animation
+- [PM]{.pm} Teams render their block movie over a real backdrop; team talks
+
+## Wednesday, July 15 {.smaller}
+
+- [AM]{.am} Install PyChrono (conda); the **same block**, now with real contact and friction
+- [AM]{.am} Two demos: a slider-crank mechanism, and a rover on terrain
+- [PM]{.pm} Teams run and tweak a demo; team talks
+- [PM]{.tour} Lab tour
+
+## Thursday, July 16
+
+- [AM]{.am} What is RAG? Use chrono-rag to generate a PyChrono model, then run it
+- [PM]{.pm} Bigger, still-friendly team showcase; team talks
+
+## Friday, July 17
+
+- [AM]{.am} Final friendly showdown; students vote for a favorite team; group photo
+- [PM]{.pm} Head to State Street and have fun. Leave early.

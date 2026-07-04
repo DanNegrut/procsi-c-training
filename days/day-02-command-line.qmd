@@ -1,0 +1,48 @@
+---
+title: "Day 2: Command Line and Your AI Tutor"
+subtitle: "Morning brief, Tuesday July 7"
+author: "Dan Negrut"
+date: 2026-07-07
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 2"
+    embed-resources: true
+---
+
+## Where this fits
+
+- Almost everything this camp does runs through the **terminal**: git, Python, conda, PyChrono.
+- Today you get comfortable driving the computer by typing, and you meet the helper you'll lean on all camp: **Claude**.
+- No prior experience needed. Poke at things and see what happens.
+
+## Today's target
+
+- **By 3:30, your team can:** open a terminal, move around the filesystem, create / rename / delete files and folders, and `git clone` a repository, all from the command line.
+- **Bonus:** you've had a real back-and-forth with Claude and used it to figure something out on your own.
+
+## How to start
+
+- Open a terminal: **Terminal** on macOS, **Windows Terminal** or **PowerShell** on Windows.
+- **No starter today.** Start from a blank prompt; exploring is the point.
+- Meet Claude, and try asks like:
+  - "I'm on <macOS / Windows>. Explain `pwd`, `ls`, `cd`, `mkdir` with tiny examples."
+  - Paste any error you hit and ask "what does this mean and how do I fix it?"
+
+## Command map {.smaller}
+
+- `pwd` where am I &nbsp;•&nbsp; `ls` what's here &nbsp;•&nbsp; `cd <dir>` move in &nbsp;•&nbsp; `cd ..` up one
+- `mkdir <name>` make a folder &nbsp;•&nbsp; `touch <file>` make a file
+- `mv <a> <b>` rename or move &nbsp;•&nbsp; `rm <file>` delete (careful, no undo)
+- `git clone <url>` copy a repository onto your machine
+- Handy: **Tab** completes names, **Up arrow** recalls your last command
+
+## Your end-of-day talk
+
+- ~10 minutes: what you explored, the handiest command you found, and one thing Claude helped you understand.
+- **Close with your team's quote or joke of the day.**
+- Stretch goal: find and explain one command not on the map above (for example `cat`, `grep`, or `history`).

@@ -1,0 +1,52 @@
+---
+title: "Day N: Topic"
+subtitle: "Morning brief, Weekday Month D"
+author: "Dan Negrut"
+date: 2026-07-DD
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day N"
+    embed-resources: true
+---
+
+<!--
+Reusable template for a morning briefing deck. Copy this file to
+days/day-NN-topic.qmd, fill in the placeholders, and delete these comments.
+Aim for 5 to 6 slides total (this title slide counts as one). Keep bullets
+short so nothing runs off the bottom; tag a fuller slide `## Title {.smaller}`.
+The starter line on "How to start" should match the tiered policy: nothing on
+the low-floor days, a skeleton/helper/demo on the high-ceiling days.
+-->
+
+## Where this fits
+
+- One line on why today matters and what it connects to (the through-line).
+- Where it lands in the two-week arc.
+
+## Today's target
+
+- **By 3:30, your team can:** <one concrete, checkable goal>.
+- Keep it small and reachable; save the fancy stuff for the stretch goal.
+
+## How to start
+
+- Tools: <what to open or install>.
+- Starter: <the day's starter, or "nothing, start from a blank slate">.
+- Ask Claude: <one or two prompt ideas to get unstuck>.
+
+## Pointers
+
+- <key command, concept, or link 1>
+- <key command, concept, or link 2>
+- <key command, concept, or link 3>
+
+## Your end-of-day talk
+
+- ~10 minutes: what you tried, how far you got, what you learned, what stumped you.
+- **Close with your team's quote or joke of the day.**
+- Stretch goal (optional): <a nice-to-have if you finish early>.

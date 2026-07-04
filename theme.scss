@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// UW-Madison Badger red branding, light background, projector-friendly contrast.
+$badger-red: #C5050C;
+
+$body-bg: #ffffff;
+$body-color: #1a1a1a;
+$link-color: $badger-red;
+$selection-bg: rgba(197, 5, 12, 0.25);
+
+$presentation-heading-color: $badger-red;
+$presentation-heading-font-weight: 700;
+
+
+/*-- scss:rules --*/
+
+.reveal .slide-number { color: $badger-red; }
+.reveal .footer { color: #666; }
+
+// Section-divider slides (level-1 headings) get a red banner.
+.reveal .title-slide h1,
+.reveal section.title h1 { color: $badger-red; }
+
+// AM / PM / lab-tour badges, so the daily rhythm is scannable from the back of the room.
+.am, .pm, .tour {
+  font-weight: 600;
+  padding: 0 .35em;
+  border-radius: .3em;
+  font-size: .85em;
+  white-space: nowrap;
+}
+.am { background: rgba(197, 5, 12, 0.12); color: $badger-red; }
+.pm { background: rgba(26, 26, 26, 0.08);  color: #333; }
+.tour { background: $badger-red; color: #fff; }
+
+// Give the at-a-glance table a bit more breathing room.
+.reveal table td, .reveal table th { padding: .35em .6em; }
+.reveal table thead th { color: $badger-red; border-bottom: 2px solid $badger-red; }

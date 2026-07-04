@@ -1,0 +1,9 @@
+# Quarto build artifacts
+/.quarto/
+*_files/
+*.html
+
+# Note: do NOT ignore _publish.yml. It records the Quarto Pub target so
+# re-publishing goes to the same URL instead of creating a new one.
+
+**/*.quarto_ipynb
