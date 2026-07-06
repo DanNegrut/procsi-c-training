@@ -1,5 +1,5 @@
 ---
-title: "Day 2: Command Line and Your AI Tutor"
+title: "Day 2: Command Line Interface (CLI) and Your AI Tutor"
 subtitle: "Morning brief, Tuesday July 14"
 author: "Dan Negrut"
 date: 2026-07-14
@@ -24,13 +24,14 @@ format:
 
 - **By 3:30, your team can:** open a terminal, move around the filesystem, create / rename / delete files and folders, and `git clone` a repository, all from the command line. 
 - **Bonus:** you've had a real back-and-forth with Claude and used it to figure something out on your own.
+- Herein, I say "Claude", but "ChatGPT" is fine, too.
 
 ## How to start
 
 - Open a terminal: **Terminal** on macOS, **Windows Terminal** or **PowerShell** on Windows.
 - **No starter today.** Start from a blank prompt; exploring is the point.
 - Meet Claude, and try asks like:
-  - "I'm on <macOS / Windows>. Explain `pwd`, `ls`, `cd`, `mkdir` with tiny examples."
+  - "I'm on [macOS / Windows]. Explain `pwd`, `ls`, `cd`, `mkdir` with tiny examples."
   - Paste any error you hit and ask "what does this mean and how do I fix it?"
 
 ## Command map {.smaller}

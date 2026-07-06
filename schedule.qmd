@@ -16,13 +16,25 @@ format:
 
 ## How the camp works {.smaller}
 
+\
+
 - Each **morning**, a short brief: today's topic, your target, and where to start. Then good luck.
-- The lab tours in the College of Engineering are scattered throughout the week, so we will do them on different days. They will be at different times, too. But the times will be known at the beginning of the camp.
+\
+- The lab tours in the College of Engineering are scattered throughout the week, so we will do them on different days and at different times. But the times will be known at the beginning of the camp.
+\
 - You work in **teams**, hands-on, all day (i.e., whenever you do not have lunch or lab tours). **Claude is your always-on tutor.**
+
+---
+
+## How the camp works: afternoons & more {.smaller}
+
 - Late afternoon (**3:30 to 4:30**), each team gives a friendly **~10-minute** talk: how far you got and what you learned.
     - Begin every talk with your team's **quote of the day**.
     - Length of the talk: 10 minutes. Strictly enforced.
     - Use the projector in the meeting room along with your laptop.
+
+/
+
 - **No grades, no quizzes.** Discover new things, make new friends, and enjoy a little friendly competition.
 - All our meetings and work sessions will be in room 1153ME in the Mechanical Engineering building at UW-Madison.
     - No food or drinks are allowed in the room.
@@ -39,7 +51,7 @@ format:
 
 ## Before you start
 
-- Bring a **laptop** (at least one good one per team).
+- Bring along your own **laptop** (at least one good one per team).
 - Each team member needs a free **Onshape** account: it runs in the browser, nothing to install.
 - We install **Miniforge (conda)** and **PyChrono** together, no prior setup needed.
 - Curiosity required; experience not.
@@ -92,7 +104,7 @@ format:
 
 | Day | Focus |
 |-----|-------|
-| Mon, Jul 20 | What does "simulate" mean? The sliding brick and forward Euler |
+| Mon, Jul 20 | What does "simulate" mean? The sliding brick and forward Euler numerical integration |
 | Tue, Jul 21 | Turn the math into a Blender movie of the brick |
 | Wed, Jul 22 | PyChrono: the same brick for real, plus wow demos |
 | Thu, Jul 23 | AI-assisted modeling with RAG (chrono-rag) |
@@ -113,15 +125,15 @@ format:
 
 - [AM]{.am} Install PyChrono (conda); the **same brick**, now with real contact and friction
 - [AM]{.am} Two demos: a slider-crank mechanism, and a rover on terrain
-- [PM]{.pm} Teams run and tweak a demo; team talks
 - [PM]{.tour} Lab tour
+- [PM]{.pm} Teams run and tweak a demo; team talks
 
 ## Thursday, July 23
 
-- [AM]{.am} What is RAG? Use chrono-rag to generate a PyChrono model, then run it
+- [AM]{.am} What is RAG? Use chrono-rag  to generate a PyChrono model, then run it
 - [PM]{.pm} Bigger models, generated with chrono-rag, or picked up from existing repositories; team talks
 
 ## Friday, July 24
 
-- [AM]{.am} Head to State Street and have fun. Leave early.
+- [AM]{.am} Head to State Street and purchase swag; help the Madison economy.
 - [PM]{.pm} Pack up; get ready for Saturday departure
