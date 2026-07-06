@@ -1,0 +1,50 @@
+---
+title: "Day 3: Python, conda, and Just-Enough Git"
+subtitle: "Morning brief, Wednesday July 15"
+author: "Dan Negrut"
+date: 2026-07-15
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 3"
+    embed-resources: true
+---
+
+## Where this fits
+
+- Yesterday you learned to drive the computer by typing. Today you get the two tools you will use every remaining day: **Python** (the language) and **git + GitHub** (how you save and share work).
+- The Euler loop, the Blender scripts, and PyChrono next week are all Python. This is the foundation day.
+
+## Today's target
+
+- **By 3:30, your team can:** run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment, and show that script pushed to a GitHub repository.
+- **Bonus:** plot something with matplotlib, anything, even a straight line.
+
+## How to start
+
+- Install **Miniforge** (we do this together): it gives you `conda`, which manages Python for you.
+- Create your camp environment once, then activate it every day:
+  - `conda create -n camp python numpy matplotlib`
+  - `conda activate camp`
+- One team member makes a free **GitHub** account and an empty repository; the team clones it.
+- **No starter today.** Build your script from scratch, with Claude as your guide.
+- Ask Claude: "Teach me Python variables, loops, and functions with tiny examples I can run" or "Walk me through my first git commit and push, step by step."
+
+## Git and GitHub, the mental model {.smaller}
+
+- **git** lives on your laptop; **GitHub** is the shared copy in the cloud. You work locally, then sync.
+- The daily cycle, in order:
+  - `git status` what changed &nbsp;•&nbsp; `git add <file>` stage it
+  - `git commit -m "message"` snapshot it &nbsp;•&nbsp; `git push` send it to GitHub
+- `git clone <url>` (from yesterday) is how a teammate gets the whole repository.
+- Rule of thumb: commit small, commit often; the message says what you did.
+
+## Your end-of-day talk
+
+- ~10 minutes: run your script live, show your GitHub repository, and tell us one thing about Python that surprised you.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: a second teammate clones the repository on their laptop and runs the script there, proving the whole loop works.

@@ -1,0 +1,47 @@
+---
+title: "Day 5: Onshape to Blender"
+subtitle: "Morning brief, Friday July 17"
+author: "Dan Negrut"
+date: 2026-07-17
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 5"
+    embed-resources: true
+---
+
+## Where this fits
+
+- This is how engineers actually work: design a part in **CAD**, then hand it to other tools for rendering, analysis, or simulation.
+- **Onshape** is professional CAD that runs in the browser; you already have your free accounts.
+- Today closes week 1: CAD in the morning, and your day-4 Blender skills bring the design to life in the afternoon.
+
+## Today's target
+
+- **By 3:30, your team can:** show a mechanism (a **slider-crank** or a **four-bar linkage**) modeled in Onshape, exported, imported into Blender, and rendered as a nice still image.
+- **Bonus:** every part has its own material or color in the render.
+
+## How to start
+
+- Sign in at **onshape.com**; create a new document.
+- Sketch a 2D profile, **extrude** it into a part; repeat for each link of your mechanism.
+- Put the parts together in an **Assembly** using **mates** (revolute mate for a pin joint, slider mate for the piston).
+- **No starter today.** Onshape's built-in tutorials plus Claude will get you there.
+- Ask Claude: "Explain sketch, extrude, and mate in Onshape like I'm brand new" or "What is a four-bar linkage? Draw me the idea in words."
+
+## Getting the model into Blender {.smaller}
+
+- In Onshape: right-click the tab (Part Studio or Assembly), **Export**, choose **STL** or **GLTF**.
+- In Blender: **File, Import, STL** (or glTF); your part may come in huge or tiny, press **S** to scale.
+- Right-click the object, **Shade Smooth**, so curved parts stop looking like disco balls.
+- Then it is yesterday's skills: material, light, camera, **F12**, save the PNG.
+
+## Your end-of-day talk
+
+- ~10 minutes: show the Onshape model (drag the mechanism around live if you can) and your Blender render.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: in Onshape, animate the mate that drives your mechanism and screen-record it moving.

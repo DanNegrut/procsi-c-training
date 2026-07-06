@@ -1,0 +1,46 @@
+---
+title: "Day 9: AI-Assisted Modeling with RAG"
+subtitle: "Morning brief, Thursday July 23"
+author: "Dan Negrut"
+date: 2026-07-23
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 9"
+    embed-resources: true
+---
+
+## Where this fits
+
+- The capstone day: everything meets. Python, git, simulation, PyChrono, and the AI tutor you have used all camp.
+- Claude is great, but it can misremember a specific library. **RAG** (retrieval-augmented generation) fixes that: before answering, the AI **looks up the real documentation and source code**, then writes its answer from what it found.
+- **chrono-rag** is RAG pointed at Project Chrono: it searches the actual Chrono code and demos, so the PyChrono scripts it produces use the real API.
+
+## Today's target
+
+- **By 3:30, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the room what the model does.
+- **Bonus:** show one place where the generated script needed a human fix, and what you did.
+
+## How to start
+
+- Tools: your `camp` conda environment with PyChrono from yesterday; I will show you how to reach chrono-rag in the morning demo.
+- **No starter file today; the AI is the starter.** Describe what you want simulated, in plain English, and iterate.
+- Good first asks: a pendulum, a stack of boxes falling over, a ball bouncing down steps, your day-5 slider-crank.
+- If a run crashes: paste the error back and ask for a fix. That loop, ask, run, read the error, ask again, is real engineering.
+
+## In the afternoon: go bigger {.smaller}
+
+- Scale up your morning model, or generate a fresh, more ambitious one with chrono-rag.
+- Alternative: pick up an existing model from the Chrono demo collection on GitHub (projectchrono/chrono, under `src/demos/python/`) and bend it to your will.
+- Judge the AI's output like an engineer: does the motion look physically right? Is anything too good to be true?
+- Tomorrow morning we head to State Street, so tonight's talk is the grand finale. Make it count.
+
+## Your end-of-day talk
+
+- ~10 minutes: run your generated model live, tell us what you asked for, what you got, and what you had to fix.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: have chrono-rag explain a line of its own generated script, then verify the explanation against the Chrono documentation.

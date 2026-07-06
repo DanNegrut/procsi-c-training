@@ -1,14 +1,13 @@
 # PROCSI C Training: two-week summer camp
 
-Materials for a two-week summer camp (Mon Jul 6 to Fri Jul 17, 2026) that introduces
+Materials for a two-week summer camp (Mon Jul 13 to Fri Jul 24, 2026) that introduces
 computer-novice undergrads to the command line, git, Python, an AI assistant, Blender,
-Onshape, what it means to "simulate" (a sliding block via forward Euler), PyChrono, and
-RAG with chrono-rag.
+Onshape, what it means to "simulate" (a sliding brick via forward Euler), PyChrono, and RAG with chrono-rag.
 
 The camp runs hands-off: each morning the instructor briefs the day's topic and a concrete
 target, then the teams (freshly drafted each day by 5 captains) work self-directed with
 Claude as their tutor. Late each afternoon every team gives a friendly ~10-minute talk on
-how far they got and what they learned, closing with a "quote or joke of the day." No
+how far they got and what they learned, opening or closing with a "quote of the day." No
 grades, no quizzes. Only the last Friday is the State Street send-off.
 
 ## Layout

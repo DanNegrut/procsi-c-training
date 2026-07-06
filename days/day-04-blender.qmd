@@ -1,0 +1,48 @@
+---
+title: "Day 4: Blender, Your First Render"
+subtitle: "Morning brief, Thursday July 16"
+author: "Dan Negrut"
+date: 2026-07-16
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 4"
+    embed-resources: true
+---
+
+## Where this fits
+
+- **Blender** is a free, professional 3D tool: modeling, materials, lighting, rendering.
+- You will use it three more times: tomorrow to render your CAD mechanism, and next week to turn simulation numbers into a movie of the sliding brick.
+- Today is about getting comfortable: build a small scene and render one good-looking image.
+
+## Today's target
+
+- **By 3:30, your team can:** show a rendered still image (a PNG) of a scene you built: a few objects, at least one material with color, a light, and a camera you placed yourself.
+- **Bonus:** make it pretty; a floor plane, a second light, or a shiny material goes a long way.
+- Heads up: **lab tour this afternoon**, plan your time around it.
+
+## How to start
+
+- Download **Blender** from blender.org (free). You start with the famous default cube.
+- **No starter today.** The default scene already has a cube, a light, and a camera; make it yours.
+- Ask Claude: "I'm brand new to Blender. How do I move around the 3D viewport?" or "How do I add a material and change an object's color in Blender?"
+
+## Blender survival kit {.smaller}
+
+- Orbit: **middle mouse drag** &nbsp;•&nbsp; zoom: **scroll** &nbsp;•&nbsp; pan: **Shift + middle mouse**
+- **Shift+A** add an object &nbsp;•&nbsp; **G** grab/move &nbsp;•&nbsp; **R** rotate &nbsp;•&nbsp; **S** scale
+- **Numpad 0** look through the camera &nbsp;•&nbsp; move the camera like any other object
+- Materials live in the **Material Properties** tab (the sphere icon); start with Base Color
+- **F12** render &nbsp;•&nbsp; then Image, Save As to keep your PNG
+- Two render engines: **Eevee** is fast, **Cycles** is fancy; Eevee is plenty for today
+
+## Your end-of-day talk
+
+- ~10 minutes: show your render on the projector, and tell us what was hard and what clicked.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: render the same scene in both Eevee and Cycles and show the difference side by side.

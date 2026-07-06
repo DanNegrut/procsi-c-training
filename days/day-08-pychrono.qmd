@@ -1,0 +1,48 @@
+---
+title: "Day 8: PyChrono, a Real Physics Engine"
+subtitle: "Morning brief, Wednesday July 22"
+author: "Dan Negrut"
+date: 2026-07-22
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 8"
+    embed-resources: true
+---
+
+## Where this fits
+
+- Monday you wrote the integrator yourself. Today a professional simulation engine does it: **Project Chrono**, developed right here at UW-Madison, with **PyChrono** as its Python face.
+- Same brick, but now the engine handles what we skipped: **contact and friction**, in 3D, with live visualization.
+- This is the tool the AI will be scripting for you tomorrow.
+
+## Today's target
+
+- **By 3:30, your team can:** run the brick simulation in PyChrono and **explain how friction changed the answer** versus Monday; then run and **tweak one demo** (the slider-crank, or the Viper rover).
+- Heads up: **lab tour this afternoon.**
+
+## How to start
+
+- Install (we do it together): `conda activate camp`, then
+  `conda install -c projectchrono pychrono`
+- **Starter:** `starters/day-08-pychrono/brick_friction.py`, a complete, runnable script: the same 2 kg brick, the same 10 N push, but now on a floor with friction. Read it top to bottom; every block has a comment.
+- Ask Claude: "Walk me through this PyChrono script block by block" (paste it in).
+
+## The friction plot twist {.smaller}
+
+- The floor grips the brick: with friction coefficient µ = 0.3, friction fights the push with roughly µ m g, about 5.9 N of your 10 N.
+- The brick still accelerates, but slower than Monday's ideal-ice answer. Compare the two position curves.
+- Now set µ = 0.6 in the script: friction can resist up to about 11.8 N, more than you push. The brick does not move at all. One number flips the story.
+- Then pick a demo to run and tweak (both live in the starter folder notes):
+  - **Slider-crank** (`demo_MBS_crank_plot.py`): Friday's CAD mechanism, now actually moving, with a matplotlib plot.
+  - **Viper rover** (`demo_ROBOT_Viper_Rigid.py`): a planetary rover driving on terrain.
+
+## Your end-of-day talk
+
+- ~10 minutes: show the brick with friction, explain the µ = 0.6 surprise, and show what you tweaked in your demo.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: find the µ where the brick just barely starts to move, and back it up with the m a = f reasoning.

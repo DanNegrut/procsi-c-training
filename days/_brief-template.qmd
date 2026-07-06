@@ -48,5 +48,5 @@ the low-floor days, a skeleton/helper/demo on the high-ceiling days.
 ## Your end-of-day talk
 
 - ~10 minutes: what you tried, how far you got, what you learned, what stumped you.
-- **Close with your team's quote or joke of the day.**
+- **Start or Close with your team's quote of the day.**
 - Stretch goal (optional): <a nice-to-have if you finish early>.
