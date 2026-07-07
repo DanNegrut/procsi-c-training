@@ -1,5 +1,5 @@
 ---
-title: "PROCSI C Training"
+title: "ProCSI-C Training"
 subtitle: "Two-Week Summer Camp, Summer 2026"
 author: "Dan Negrut"
 date: 2026-07-13
@@ -10,8 +10,24 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  UW-Madison"
+    footer: "ProCSI-C Training  |  UW-Madison | CSU System"
     embed-resources: true
+---
+
+## Acknowledgments {.smaller}
+
+- The ProCSI-C training is a collaboration between the University of Wisconsin-Madison (UW-Madison) and the California State University System (CSU).
+    - ProCSI-C: Promoting the Computational Science Initiative (for College students)
+    - There have been many ProCSI-H events at UW-Madison for **H**igh school students.
+
+\
+
+- ProCSI-C is supported by the National Science Foundation (NSF) under grant number 2602201.
+
+\
+
+- **Khailanii Slaton** has been a great help with the lab tours and the overall organization of the camp.
+
 ---
 
 ## How the camp works {.smaller}

@@ -1,0 +1,4 @@
+- source: schedule.qmd
+  posit-connect-cloud:
+    - id: 019f3df6-2e06-666d-2df7-384391ce794d
+      url: https://connect.posit.cloud/dan-negrut/content/019f3df6-2e06-666d-2df7-384391ce794d
