@@ -31,7 +31,9 @@ quarto preview schedule.qmd                # live preview while editing
 quarto publish posit-connect-cloud schedule.qmd   # publish the schedule
 ```
 
-`_publish.yml` records the Posit Connect Cloud content id and URL, so every publish
-updates the same link (share URL: the content page under connect.posit.cloud/dan-negrut).
+`_publish.yml` records the Posit Connect Cloud content id, so every publish updates the
+same content. Two URLs exist: the owner dashboard (connect.posit.cloud/dan-negrut/...,
+prompts visitors to log in) and the public share link to give participants:
+<https://019f3df6-2e06-666d-2df7-384391ce794d.share.connect.posit.cloud/>.
 Note: Quarto Pub is deprecated and closed to new accounts; Posit Connect Cloud is its
 successor. Built `*.html` output is gitignored.

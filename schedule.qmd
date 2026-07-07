@@ -12,6 +12,9 @@ format:
     transition: fade
     footer: "ProCSI-C Training  |  UW-Madison | CSU System"
     embed-resources: true
+    controls: true
+    controls-layout: bottom-right
+    controls-tutorial: false
 ---
 
 ## Acknowledgments {.smaller}
@@ -22,7 +25,7 @@ format:
 
 \
 
-- ProCSI-C is supported by the National Science Foundation (NSF) under grant number 2602201.
+- ProCSI-C is supported by the National Science Foundation (NSF) under grant OAC-2519443.
 
 \
 
@@ -56,14 +59,23 @@ format:
     - No food or drinks are allowed in the room.
 
 
-## Teams
-- Each day we'll have five fresh teams, each made up of four people.
-- We pick **5 captains**. Captains take turns (round-robin) drafting teammates into **5 teams**.
-    - No captain can be a captain again during one week; they can be a captain again the next week.
+## Teams {.smaller}
+- Each day we'll have five fresh teams, each made up of **four** people.
+
+\
+
+- We pick **5 captains**. Captains take turns (round-robin) drafting *free agents* into **their own teams**.
+    - No captain can be a captain twice *during one week*.
+    - Role of the captains: they present their team's work at the end of the day.
+
+\
+
 - **New teams each day**, so you keep meeting new people.
-    - Captains take turns drafting teammates from the pool of people who have not been drafted yet.
+    
+\
+
 - Teams compete good-naturedly; at day's end, everyone **votes for a favorite** summary of the day.
-- The only stakes are bragging rights and fun.
+    - The only stakes are bragging rights and fun.
 
 ## Before you start
 
@@ -78,7 +90,7 @@ format:
 - **Claude** ([claude.ai](https://claude.ai)): your AI tutor for the whole camp.
 - **GitHub** ([github.com](https://github.com)): optional; only if you take the git side quest.
 
-## Software to install {.smaller}
+## Software to install {.smallest}
 
 | Tool | When | Windows | Linux | macOS |
 |------|------|---------|-------|-------|
@@ -86,6 +98,8 @@ format:
 | Blender | Days 4, 5, 7 | installer from [blender.org](https://www.blender.org) | `sudo snap install blender --classic` (or your distro's package) | installer from [blender.org](https://www.blender.org) |
 | Miniforge (conda + Python) | Day 3 on; **we install it together** | [github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge) | same link | same link |
 | PyChrono | Week 2; **we install it together** | nothing to do now | nothing to do now | nothing to do now |
+
+\
 
 - git is only a fetch tool here. \
 The one command you will need:
@@ -133,9 +147,15 @@ The one command you will need:
 - [AM]{.am} Onshape: build a simple mechanism (slider-crank or four-bar); export
 - [PM]{.pm} Import the CAD part into Blender, set a scene, render; team talks
 
+\
+
+- **NOTE**: Group picture at **4:00 PM**, Mechanical Engineering atrium.
+
 # Week 2
 
-## Week 2 at a glance
+## Week 2 at a glance {.smaller}
+
+\
 
 | Day | Focus |
 |-----|-------|

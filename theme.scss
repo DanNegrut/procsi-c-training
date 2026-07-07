@@ -17,6 +17,24 @@ $presentation-heading-font-weight: 700;
 .reveal .slide-number { color: $badger-red; }
 .reveal .footer { color: #666; }
 
+// Navigation arrows: grey, static (no tutorial bounce), small, and nudged left
+// so the cluster clears the slide number in the bottom-right corner while
+// staying far from the menu button in the bottom-left. Arrows scale with
+// font-size; reveal default is 10px.
+.reveal .controls {
+  color: #8a8a8a;
+  font-size: 5px;
+  right: 80px;
+}
+
+// One uniform shade for every arrow, in every state: reveal normally dims
+// forward/backward differently via opacity.
+.reveal .controls button,
+.reveal .controls button.enabled,
+.reveal .controls button.enabled.fragmented {
+  opacity: 0.85;
+}
+
 // Section-divider slides (level-1 headings) get a red banner.
 .reveal .title-slide h1,
 .reveal section.title h1 { color: $badger-red; }
@@ -32,6 +50,13 @@ $presentation-heading-font-weight: 700;
 .am { background: rgba(197, 5, 12, 0.12); color: $badger-red; }
 .pm { background: rgba(26, 26, 26, 0.08);  color: #333; }
 .tour { background: $badger-red; color: #fff; }
+
+// Dense slides (wide tables): smaller than built-in .smaller (70%).
+.reveal .slides section.smallest {
+  font-size: 0.55em;
+
+  h2 { font-size: calc(1.6em / 0.55); }
+}
 
 // Give the at-a-glance table a bit more breathing room.
 .reveal table td, .reveal table th { padding: .35em .6em; }
