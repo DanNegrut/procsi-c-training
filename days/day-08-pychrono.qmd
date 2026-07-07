@@ -23,7 +23,7 @@ format:
 ## Today's target
 
 - **By 3:30, your team can:** run the brick simulation in PyChrono and **explain how friction changed the answer** versus Monday; then run and **tweak one demo** (the slider-crank, or the Viper rover).
-- Heads up: **lab tour this afternoon.**
+
 
 ## How to start
 
@@ -34,7 +34,7 @@ format:
 
 ## The friction plot twist {.smaller}
 
-- The floor grips the brick: with friction coefficient µ = 0.3, friction fights the push with roughly µ m g, about 5.9 N of your 10 N.
+- The floor grips the brick: with friction coefficient $\mu = 0.3$, the friction force is $\mu \times  9.81$ m/s$^2 \times 2$ kg $= 5.9$  N, which fights your 10 N.
 - The brick still accelerates, but slower than Monday's ideal-ice answer. Compare the two position curves.
 - Now set µ = 0.6 in the script: friction can resist up to about 11.8 N, more than you push. The brick does not move at all. One number flips the story.
 - Then pick a demo to run and tweak (both live in the starter folder notes):

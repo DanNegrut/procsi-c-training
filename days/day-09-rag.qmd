@@ -17,8 +17,9 @@ format:
 ## Where this fits
 
 - The capstone day: everything meets. Python, git, simulation, PyChrono, and the AI tutor you have used all camp.
-- Claude is great, but it can misremember a specific library. **RAG** (retrieval-augmented generation) fixes that: before answering, the AI **looks up the real documentation and source code**, then writes its answer from what it found.
-- **chrono-rag** is RAG pointed at Project Chrono: it searches the actual Chrono code and demos, so the PyChrono scripts it produces use the real API.
+- Claude is great, but it can misremember a specific library. 
+- **RAG** (retrieval-augmented generation) fixes that: before answering, the AI **looks up the real documentation and source code**, then writes its answer from what it found.
+- **chrono-rag** is RAG pointed at Project Chrono: it searches the actual Chrono code and demos, so the PyChrono scripts it produces use the real API and features of Chrono.
 
 ## Today's target
 
