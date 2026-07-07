@@ -25,8 +25,8 @@ format:
 - A brick of mass **m = 2 kg** sits on ice (no friction). We push it with a constant force **f = 10 N** for **10 seconds**.
 - Newton's second law is the equation of motion: **m a = f**, so the acceleration is a = f / m = 5 m/s².
 - **Forward Euler**: chop time into small steps h and march forward. Knowing where you are now, take a small step:
-  - new velocity: $v(t+h) = v(t) + h a$. Put in in a different way, $v_{new} = v_{now} + h a_{now}$.
-  - new position: $x(t+h) = x(t) + h v(t)$. Put in in a different way, $x_{new} = x_{now} + h v_{now}$.
+  - new velocity: $v(t+h) = v(t) + h a$. Put differently, $v_{new} = v_{now} + h a_{now}$.
+  - new position: $x(t+h) = x(t) + h v(t)$. Put differently, $x_{new} = x_{now} + h v_{now}$.
 - That is a simulation: repeat a tiny honest step until you reach 10 s.
 
 ## Today's target

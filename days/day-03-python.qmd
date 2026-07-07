@@ -1,0 +1,50 @@
+---
+title: "Day 3: Python and conda"
+subtitle: "Morning brief, Wednesday July 15"
+author: "Dan Negrut"
+date: 2026-07-15
+format:
+  revealjs:
+    theme: [default, ../theme.scss]
+    slide-number: true
+    width: 1250
+    margin: 0.08
+    transition: fade
+    footer: "PROCSI C Training  |  Day 3"
+    embed-resources: true
+---
+
+## Where this fits
+
+- Yesterday you learned to drive the computer by typing. Today you get the language you will use every remaining day: **Python**.
+- The Euler loop, the Blender animation script, and PyChrono next week are all Python. This is the foundation day.
+- **conda** is the sidekick: it installs Python and its packages for you, cleanly.
+
+## Today's target
+
+- **By 3:30, your team can:** run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment.
+- **Bonus:** plot something with matplotlib, anything, even a straight line.
+
+## How to start
+
+- Install **Miniforge** (we do this together): it gives you `conda`, which manages Python for you.
+- Create your camp environment once, then activate it every day:
+  - `conda create -n camp python numpy matplotlib`
+  - `conda activate camp`
+- **No starter today.** Build your script from scratch, with Claude as your guide.
+- Ask Claude: "Teach me Python variables, loops, and functions with tiny examples I can run" or "Give me five small Python exercises and check my answers."
+
+## Optional side quest: git and GitHub {.smaller}
+
+- Yesterday's `git clone` is all the git this camp needs. But if you are curious what you just used:
+- **git** tracks versions of files on your machine; **GitHub** hosts shared copies in the cloud. Together they are how software teams work.
+- Safe places to play and test your understanding:
+  - **GitHub Skills** ([skills.github.com](https://skills.github.com)): official hands-on mini-courses in a practice repository (free account needed).
+  - **Learn Git Branching** ([learngitbranching.js.org](https://learngitbranching.js.org)): a visual git sandbox in the browser, no account, nothing to install.
+  - **first-contributions** ([github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)): make your first real pull request in a beginner-friendly repository.
+
+## Your end-of-day talk
+
+- ~10 minutes: run your script live, and tell us one thing about Python that surprised you.
+- **Start or Close with your team's quote of the day.**
+- Stretch goal: the side quest above, or a function that does something fun (a countdown, a times table, a tiny guessing game).

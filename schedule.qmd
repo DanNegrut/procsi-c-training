@@ -28,12 +28,12 @@ format:
 
 ## How the camp works: afternoons & more {.smaller}
 
-- Late afternoon (**3:30 to 4:30**), each team gives a friendly **~10-minute** talk: how far you got and what you learned.
+- Late afternoon (ballpark time: **3:30 to 4:30**, or **4:00 to 5:00**), each team gives a friendly **~10-minute** talk: how far you got and what you learned.
     - Begin every talk with your team's **quote of the day**.
     - Length of the talk: 10 minutes. Strictly enforced.
     - Use the projector in the meeting room along with your laptop.
 
-/
+\
 
 - **No grades, no quizzes.** Discover new things, make new friends, and enjoy a little friendly competition.
 - All our meetings and work sessions will be in room 1153ME in the Mechanical Engineering building at UW-Madison.
@@ -41,7 +41,7 @@ format:
 
 
 ## Teams
-
+- Each day we'll have five fresh teams, each made up of four people.
 - We pick **5 captains**. Captains take turns (round-robin) drafting teammates into **5 teams**.
     - No captain can be a captain again during one week; they can be a captain again the next week.
 - **New teams each day**, so you keep meeting new people.
@@ -56,6 +56,25 @@ format:
 - We install **Miniforge (conda)** and **PyChrono** together, no prior setup needed.
 - Curiosity required; experience not.
 
+## Accounts to create (all free)
+
+- **Onshape** ([onshape.com](https://www.onshape.com)): CAD in the browser; every team member needs one.
+- **Claude** ([claude.ai](https://claude.ai)): your AI tutor for the whole camp.
+- **GitHub** ([github.com](https://github.com)): optional; only if you take the git side quest.
+
+## Software to install {.smaller}
+
+| Tool | When | Windows | Linux | macOS |
+|------|------|---------|-------|-------|
+| git | Day 2 | installer from [git-scm.com](https://git-scm.com); includes **Git Bash**, the bash we use | `sudo apt install git` (often already there) | type `git --version` in Terminal, accept the popup |
+| Blender | Days 4, 5, 7 | installer from [blender.org](https://www.blender.org) | `sudo snap install blender --classic` (or your distro's package) | installer from [blender.org](https://www.blender.org) |
+| Miniforge (conda + Python) | Day 3 on; **we install it together** | [github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge) | same link | same link |
+| PyChrono | Week 2; **we install it together** | nothing to do now | nothing to do now | nothing to do now |
+
+- git is only a fetch tool here. \
+The one command you will need:
+  `git clone https://github.com/DanNegrut/procsi-c-training.git`
+
 # Week 1
 
 ## Week 1 at a glance
@@ -64,7 +83,7 @@ format:
 |-----|-------|
 | Mon, Jul 13 | Welcome, College of Engineering, meet everyone |
 | Tue, Jul 14 | Command line interface (CLI) and bash; meet Claude |
-| Wed, Jul 15 | Python (conda) and a little git |
+| Wed, Jul 15 | Python (conda) |
 | Thu, Jul 16 | Blender: render your first image |
 | Fri, Jul 17 | Onshape mechanism, then render it in Blender |
 
@@ -84,7 +103,7 @@ format:
 ## Wednesday, July 15
 
 - [AM]{.am} Install Miniforge (conda); Python basics: variables, loops, functions, arrays
-- [AM]{.am} Just-enough git: `add`, `commit`, `push` to save your work. What is GitHub, how does it work, and what is the interplay between GitHub and your local machine, and between GitHub and git?
+- [AM]{.am} Optional side quest, for the curious: what git and GitHub actually are. The camp itself only needs the one `git clone` command from yesterday.
 - [PM]{.pm} Python exercises with Claude; team talks
 
 ## Thursday, July 16

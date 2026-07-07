@@ -28,8 +28,10 @@ format:
 
 ## How to start
 
-- Open a terminal: **Terminal** on macOS, **Windows Terminal** or **PowerShell** on Windows.
+- Open a terminal: **Terminal** on macOS, **Git Bash** or **Windows Terminal** on Windows.
 - **No starter today.** Start from a blank prompt; exploring is the point.
+- Your one concrete fetch, and how you get all camp materials:
+  `git clone https://github.com/DanNegrut/procsi-c-training.git`
 - Meet Claude, and try asks like:
   - "I'm on [macOS / Windows]. Explain `pwd`, `ls`, `cd`, `mkdir` with tiny examples."
   - Paste any error you hit and ask "what does this mean and how do I fix it?"

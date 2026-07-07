@@ -1,7 +1,7 @@
 # PROCSI C Training: two-week summer camp
 
 Materials for a two-week summer camp (Mon Jul 13 to Fri Jul 24, 2026) that introduces
-computer-novice undergrads to the command line, git, Python, an AI assistant, Blender,
+computer-novice undergrads to the command line, Python, an AI assistant, Blender,
 Onshape, what it means to "simulate" (a sliding brick via forward Euler), PyChrono, and RAG with chrono-rag.
 
 The camp runs hands-off: each morning the instructor briefs the day's topic and a concrete
@@ -19,7 +19,7 @@ days/            # the instructor's morning briefing decks, one per working day
   _brief-template.qmd
   day-02-command-line.qmd ... day-09-rag.qmd
 starters/        # tiered starter material handed to teams (days 6 to 8)
-notes/           # source notes (brainstorming, day-by-day scratch)
+notes/           # source notes (brainstorming)
 _quarto.yml      # minimal project so one render builds everything
 ```
 

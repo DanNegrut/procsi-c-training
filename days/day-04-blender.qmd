@@ -17,7 +17,7 @@ format:
 ## Where this fits
 
 - **Blender** is a free, professional 3D tool: modeling, materials, lighting, rendering.
-- You will use it three more times: tomorrow to render your CAD mechanism, and next week to turn simulation numbers into a movie of the sliding brick.
+- You will use it twice more: tomorrow to render your CAD mechanism, and next week to turn simulation numbers into a movie of the sliding brick.
 - Today is about getting comfortable: build a small scene and render one good-looking image.
 
 ## Today's target
