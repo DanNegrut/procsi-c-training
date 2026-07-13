@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day N"
+    footer: "ProCSI C Training  |  Day N"
     embed-resources: true
 ---
 
@@ -30,7 +30,7 @@ the low-floor days, a skeleton/helper/demo on the high-ceiling days.
 
 ## Today's target
 
-- **By 3:30, your team can:** <one concrete, checkable goal>.
+- **By 4:00, your team can:** <one concrete, checkable goal>.
 - Keep it small and reachable; save the fancy stuff for the stretch goal.
 
 ## How to start

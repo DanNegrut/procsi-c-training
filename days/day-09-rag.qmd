@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 9"
+    footer: "ProCSI C Training  |  Day 9"
     embed-resources: true
 ---
 
@@ -23,7 +23,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the room what the model does.
+- **By 4:00, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the room what the model does.
 - **Bonus:** show one place where the generated script needed a human fix, and what you did.
 
 ## How to start

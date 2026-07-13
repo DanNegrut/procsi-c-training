@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 7"
+    footer: "ProCSI C Training  |  Day 7"
     embed-resources: true
 ---
 
@@ -22,7 +22,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** play a rendered Blender **movie of the brick sliding**, driven by your day-6 CSV, over a real-looking backdrop. A white empty void does not count; give the eye something to measure motion against.
+- **By 4:00, your team can:** play a rendered Blender **movie of the brick sliding**, driven by your day-6 CSV, over a real-looking backdrop. A white empty void does not count; give the eye something to measure motion against.
 - **Bonus:** a second object in the scene for scale (a tree, a road, a row of cones).
 
 ## How to start

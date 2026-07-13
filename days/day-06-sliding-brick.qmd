@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 6"
+    footer: "ProCSI C Training  |  Day 6"
     embed-resources: true
 ---
 
@@ -31,7 +31,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** run a Python script that does the Euler loop, **plots position versus time**, and **saves t and x to a CSV file** (tomorrow's movie eats that CSV).
+- **By 4:00, your team can:** run a Python script that does the Euler loop, **plots position versus time**, and **saves t and x to a CSV file** (tomorrow's movie eats that CSV).
 - **Check yourself:** this problem has an exact answer, x(t) = ½ a t², so x(10) = 250 m. How close is your Euler loop?
 
 ## How to start

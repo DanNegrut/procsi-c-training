@@ -1,0 +1,32 @@
+- source: day-02-command-line.qmd
+  posit-connect-cloud:
+    - id: 019f5d3f-765a-7cdd-4f3d-2e89be3fec19
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d3f-765a-7cdd-4f3d-2e89be3fec19
+- source: day-03-python.qmd
+  posit-connect-cloud:
+    - id: 019f5d3f-c1f2-e076-e6a3-0d22d7731181
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d3f-c1f2-e076-e6a3-0d22d7731181
+- source: day-04-blender.qmd
+  posit-connect-cloud:
+    - id: 019f5d40-0b22-46b4-b2e9-c2bc67ed24d0
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d40-0b22-46b4-b2e9-c2bc67ed24d0
+- source: day-05-onshape.qmd
+  posit-connect-cloud:
+    - id: 019f5d40-77c3-ffa1-9a4b-47417f4c6e41
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d40-77c3-ffa1-9a4b-47417f4c6e41
+- source: day-06-sliding-brick.qmd
+  posit-connect-cloud:
+    - id: 019f5d40-aa29-ba42-338a-7c58402d51d3
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d40-aa29-ba42-338a-7c58402d51d3
+- source: day-07-brick-movie.qmd
+  posit-connect-cloud:
+    - id: 019f5d40-e9b6-e707-c6f8-7eab621ff2ae
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d40-e9b6-e707-c6f8-7eab621ff2ae
+- source: day-08-pychrono.qmd
+  posit-connect-cloud:
+    - id: 019f5d41-2cdf-51b7-4a6e-73e875e10ed4
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d41-2cdf-51b7-4a6e-73e875e10ed4
+- source: day-09-rag.qmd
+  posit-connect-cloud:
+    - id: 019f5d41-6eaf-3b09-4076-8ab7c8d84395
+      url: https://connect.posit.cloud/dan-negrut/content/019f5d41-6eaf-3b09-4076-8ab7c8d84395

@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 8"
+    footer: "ProCSI C Training  |  Day 8"
     embed-resources: true
 ---
 
@@ -22,7 +22,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** run the brick simulation in PyChrono and **explain how friction changed the answer** versus Monday; then run and **tweak one demo** (the slider-crank, or the Viper rover).
+- **By 4:00, your team can:** run the brick simulation in PyChrono and **explain how friction changed the answer** versus Monday; then run and **tweak one demo** (the slider-crank, or the Viper rover).
 
 
 ## How to start

@@ -1,3 +1,4 @@
 {
-  "quarto.path": "C:\\Program Files\\Quarto\\bin\\quarto.exe"
+  "quarto.path": "C:\\Program Files\\Quarto\\bin\\quarto.exe",
+  "quarto.render.previewType": "internal"
 }

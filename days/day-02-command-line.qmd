@@ -10,19 +10,24 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 2"
+    footer: "ProCSI C Training  |  Day 2"
     embed-resources: true
 ---
 
 ## Where this fits
 
 - Almost everything this camp does runs through the **terminal**: git, Python, conda, PyChrono.
-- Today you get comfortable driving the computer by typing, and you meet the helper you'll lean on all camp: **Claude**.
+    - Terminal: also known as command line interface (CLI)
+    - All these commands -- conda, PyChrono, etc. -- are executed from the terminal.
+
+\
+
+- Today you also get comfortable driving the computer by typing, and you meet the helper you'll lean on all camp: **Claude**.
 - No prior experience needed. Poke at things and see what happens.
 
 ## Today's target
 
-- **By 3:30, your team can:** open a terminal, move around the filesystem, create / rename / delete files and folders, and `git clone` a repository, all from the command line. 
+- **By 4:00, your team can:** open a terminal, move around the filesystem, create / rename / delete files and folders, and `git clone` a repository, all from the command line. 
 - **Bonus:** you've had a real back-and-forth with Claude and used it to figure something out on your own.
 - Herein, I say "Claude", but "ChatGPT" is fine, too.
 

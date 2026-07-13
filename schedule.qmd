@@ -31,32 +31,40 @@ format:
 
 - **Khailanii Slaton** has been a great help with the lab tours and the overall organization of the camp.
 
----
-
 ## How the camp works {.smaller}
 
 \
 
 - Each **morning**, a short brief: today's topic, your target, and where to start. Then good luck.
-\
-- The lab tours in the College of Engineering are scattered throughout the week, so we will do them on different days and at different times. But the times will be known at the beginning of the camp.
-\
-- You work in **teams**, hands-on, all day (i.e., whenever you do not have lunch or lab tours). **Claude is your always-on tutor.**
+    - We meet each morning at 9:30 am in this room (1153ME)
 
----
+\
+
+- The lab tours in the College of Engineering are scattered throughout the week, so we will do them on different days and at different times. But the times will be known at the beginning of the camp.
+
+\
+
+- You work in **teams**, hands-on, all day (i.e., whenever you do not have lunch or lab tours). **Claude is your always-on tutor.**
 
 ## How the camp works: afternoons & more {.smaller}
 
-- Late afternoon (ballpark time: **3:30 to 4:30**, or **4:00 to 5:00**), each team gives a friendly **~10-minute** talk: how far you got and what you learned.
+- Late afternoon, from **4:00 to 5:00**, each team gives a friendly **~10-minute** talk: how far you got and what you learned.
     - Begin every talk with your team's **quote of the day**.
     - Length of the talk: 10 minutes. Strictly enforced.
     - Use the projector in the meeting room along with your laptop.
 
-\
+
+## How the camp works: afternoons & more {.smaller}
 
 - **No grades, no quizzes.** Discover new things, make new friends, and enjoy a little friendly competition.
+
+\
+
 - All our meetings and work sessions will be in room 1153ME in the Mechanical Engineering building at UW-Madison.
-    - No food or drinks are allowed in the room.
+
+\
+
+- No food or drinks are allowed in the room.
 
 
 ## Teams {.smaller}
@@ -76,6 +84,19 @@ format:
 
 - Teams compete good-naturedly; at day's end, everyone **votes for a favorite** summary of the day.
     - The only stakes are bragging rights and fun.
+
+## If things are too easy for you
+
+- You are part of a team, but you move faster than the rest of the team.
+- If you want to quickly cover the entire material, do so.
+- Let Dan know when you are done with covering the material that is assigned for the entire program.
+- Based on your interests, Dan will work with you to identify a side quest for sim-in-robotics to keep you busy
+ 
+ \
+
+- You will **still** have to be part of a team, on a daily basis.
+    - But you will be able to work on other things in "solo" mode.
+
 
 ## Before you start
 
@@ -120,13 +141,13 @@ The one command you will need:
 ## Monday, July 13
 
 - CSULA cohort arriving late
-- [AM, 1153ME]{.am} Overview of the College of Engineering at UW-Madison
 - [PM, 1153ME]{.pm} How the camp works; getting to know each other
+    - Dan answers your questions
 - [PM]{.pm} Ice cream expedition at Memorial Union; walk there after dinner
 
 ## Tuesday, July 14
 
-- [AM]{.am} The command line interface (CLI) and bash: files, folders, navigation; `git clone` as just another command
+- [AM]{.am} The command line interface (CLI) and bash: files, folders, navigation; `git clone` as just another command -- learn what this command does
 - [AM]{.am} Meet Claude, your tutor for the whole camp
 - [PM]{.pm} Hands-on in teams; ~10-minute talks and the first quote of the day
 
@@ -169,7 +190,6 @@ The one command you will need:
 
 - [AM]{.am} The sliding brick: mass m, force f, over 10 s; the equation of motion; forward Euler
 - [PM]{.pm} Teams code the Euler loop in Python and plot position vs time; team talks
-- [PM]{.tour} Lab tour
 
 ## Tuesday, July 21
 

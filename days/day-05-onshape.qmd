@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 5"
+    footer: "ProCSI C Training  |  Day 5"
     embed-resources: true
 ---
 
@@ -22,7 +22,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** show a mechanism (a **slider-crank** or a **four-bar linkage**) modeled in Onshape, exported, imported into Blender, and rendered as a nice still image.
+- **By 4:00, your team can:** show a mechanism (a **slider-crank** or a **four-bar linkage**) modeled in Onshape, exported, imported into Blender, and rendered as a nice still image.
 - **Bonus:** every part has its own material or color in the render.
 
 ## How to start

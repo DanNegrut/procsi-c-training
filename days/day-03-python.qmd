@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 3"
+    footer: "ProCSI C Training  |  Day 3"
     embed-resources: true
 ---
 
@@ -22,7 +22,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment.
+- **By 4:00, your team can:** run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment.
 - **Bonus:** plot something with matplotlib, anything, even a straight line.
 
 ## How to start

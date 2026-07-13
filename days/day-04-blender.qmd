@@ -10,7 +10,7 @@ format:
     width: 1250
     margin: 0.08
     transition: fade
-    footer: "PROCSI C Training  |  Day 4"
+    footer: "ProCSI C Training  |  Day 4"
     embed-resources: true
 ---
 
@@ -22,7 +22,7 @@ format:
 
 ## Today's target
 
-- **By 3:30, your team can:** show a rendered still image (a PNG) of a scene you built: a few objects, at least one material with color, a light, and a camera you placed yourself.
+- **By 4:00, your team can:** show a rendered still image (a PNG) of a scene you built: a few objects, at least one material with color, a light, and a camera you placed yourself.
 - **Bonus:** make it pretty; a floor plane, a second light, or a shiny material goes a long way.
 
 ## How to start
