@@ -49,8 +49,27 @@ format:
 - `git clone <url>` copy a repository onto your machine
 - Handy: **Tab** completes names, **Up arrow** recalls your last command
 
+## What is an IDE? {.smaller}
+
+- An **IDE** (Integrated Development Environment) is one app that bundles everything for writing code: a smart text editor, a file browser, and a **built-in terminal**.
+- You could write code in Notepad; an IDE is the workshop version, with every tool within arm's reach.
+- Ours is **VS Code**: free, runs on every OS, and the most widely used code editor in the world. (Others exist, like PyCharm and Cursor; same idea.)
+- Starting tomorrow, you write your Python in VS Code and run it from its built-in terminal, using exactly today's command-line skills.
+
+## Install VS Code {.smaller}
+
+- Install it **today**, on every laptop your team will write code on:
+  - **Windows and macOS**: installer from [code.visualstudio.com](https://code.visualstudio.com); the defaults are fine.
+  - **Linux**: `sudo snap install code --classic` (or grab the .deb/.rpm from the same site).
+- First steps once it opens:
+  - **File, Open Folder**, and pick the `procsi-c-training` folder you cloned this morning.
+  - Open the built-in terminal: **Ctrl + the backtick key** (top-left of the keyboard, under Esc). Everything from today's command map works there.
+- Tomorrow VS Code will suggest the **Python extension**; say yes.
+
 ## Your end-of-day talk
 
 - ~10 minutes: what you explored, the handiest command you found, and one thing Claude helped you understand.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: find and explain one command not on the map above (for example `cat`, `grep`, or `history`).
+- Stretch goals:
+    - Find and explain one command not on the map above (for example `cat`, `grep`, or `history`).
+    - If you or a teammate have a **paid** Claude plan (Pro or higher): install the **Claude Code** extension in VS Code (Extensions panel, search "Claude Code", publisher Anthropic), and have it generate a script that counts the characters in a file. Heads up: the free claude.ai plan does not include Claude Code, so the browser tutor stays your main tool.

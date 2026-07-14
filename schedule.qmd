@@ -116,6 +116,7 @@ format:
 | Tool | When | Windows | Linux | macOS |
 |------|------|---------|-------|-------|
 | git | Day 2 | installer from [git-scm.com](https://git-scm.com); includes **Git Bash**, the bash we use | `sudo apt install git` (often already there) | type `git --version` in Terminal, accept the popup |
+| VS Code (the editor/IDE) | Day 2 on | installer from [code.visualstudio.com](https://code.visualstudio.com) | `sudo snap install code --classic` | installer from [code.visualstudio.com](https://code.visualstudio.com) |
 | Blender | Days 4, 5, 7 | installer from [blender.org](https://www.blender.org) | `sudo snap install blender --classic` (or your distro's package) | installer from [blender.org](https://www.blender.org) |
 | Miniforge (conda + Python) | Day 3 on; **we install it together** | [github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge) | same link | same link |
 | PyChrono | Week 2; **we install it together** | nothing to do now | nothing to do now | nothing to do now |
