@@ -21,15 +21,12 @@ format:
     - This is a "foundation day" -- you will use Python every day from now on.
 - **conda** is the sidekick: it installs Python and its packages for you, cleanly.
 
-## Today's target: build the Draft-Day app {.smaller}
+## Today's target
 
-- **By 4:00, your team can:** run a Python app, from the command line in your conda environment, that runs our morning ritual:
-    - reads `students.txt` (one first name per line),
-    - picks **5 captains** at random, skipping anyone who was already captain this week,
-    - then runs the **draft**: captains take turns (round-robin), and on each turn the captain **types the name of the free agent they pick**, until everyone has a team,
-    - prints the five teams, and saves today's captains and teams to a history file, so tomorrow's run remembers who has been captain.
-- Keep the draft honest: always show whose turn it is and who is still available, and reject a pick that is taken or misspelled.
-- **The prize:** at 4:00 we vote, and the winning team's app becomes the camp's official Draft-Day app, used every morning for the rest of camp.
+- **By 4:00, your team can:**
+    - Run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment.
+    - Plot something with matplotlib, e.g., a comparison of the temperature in LA and Madison over the last 30 days.
+        - Customize it to look nice: should you use a line plot, a bar chart, a scatter plot, a histogram?
 
 ## How to start
 
@@ -40,10 +37,9 @@ format:
 
 ## No "starter material" today
 
-- Build the app from scratch, with Claude as your guide.
+- Build everything from scratch, with Claude as your guide.
 - Warm up first: ask Claude "Teach me Python variables, loops, and functions with tiny examples I can run."
-- Then build: tell Claude the drafting rules in plain English ("20 students, 5 captains, no repeat captains this week, captains take turns picking...") and ask it to help you build the app **step by step**, explaining each piece.
-- Stuck on the turn-taking? Ask: "How do I loop over the captains in turns, read each pick with input(), and reject names that are taken or misspelled?"
+- Then build the weather plot: tell Claude what you want in plain English, and iterate until the plot looks good.
 
 ## Side quest: git and GitHub {.smaller}
 
@@ -60,8 +56,8 @@ format:
 
 ## Your end-of-day talk
 
-- ~10 minutes: run your Team Shuffler **live on the real roster**, and tell us one thing about Python that surprised you.
+- ~10 minutes: run your script live, show your plot, and tell us one thing about Python that surprised you.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal:
-    - Write an app that remembers the captains and teams from the previous days of the week, and uses that history to shuffle the teams differently today.
-    - We'll use the best application starting tomorrow.
+- Stretch goal, the team-generation app:
+    - Write the app that runs our morning ritual: it picks 5 captains at random (nobody is captain twice in one week), lets the captains draft their teams, and remembers the captains and teams from previous days so the teams get shuffled differently every day.
+    - Run it **live on the real roster** at your talk. We'll use the best application starting tomorrow.
