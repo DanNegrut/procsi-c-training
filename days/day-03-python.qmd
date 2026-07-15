@@ -17,34 +17,51 @@ format:
 ## Where this fits
 
 - Yesterday you learned to drive the computer by typing. Today you get the language you will use every remaining day: **Python**.
-- The Euler loop, the Blender animation script, and PyChrono next week are all Python. This is the foundation day.
+- Using Forward Euler numerical integration, the Blender animation script, and PyChrono next week are all Python. 
+    - This is a "foundation day" -- you will use Python every day from now on.
 - **conda** is the sidekick: it installs Python and its packages for you, cleanly.
 
-## Today's target
+## Today's target: build the Draft-Day app {.smaller}
 
-- **By 4:00, your team can:** run a small Python script of your own (variables, a loop, a function, a list) from the command line, inside a conda environment.
-- **Bonus:** plot something with matplotlib, anything, even a straight line.
+- **By 4:00, your team can:** run a Python app, from the command line in your conda environment, that runs our morning ritual:
+    - reads `students.txt` (one first name per line),
+    - picks **5 captains** at random, skipping anyone who was already captain this week,
+    - then runs the **draft**: captains take turns (round-robin), and on each turn the captain **types the name of the free agent they pick**, until everyone has a team,
+    - prints the five teams, and saves today's captains and teams to a history file, so tomorrow's run remembers who has been captain.
+- Keep the draft honest: always show whose turn it is and who is still available, and reject a pick that is taken or misspelled.
+- **The prize:** at 4:00 we vote, and the winning team's app becomes the camp's official Draft-Day app, used every morning for the rest of camp.
 
 ## How to start
 
-- Install **Miniforge** (we do this together): it gives you `conda`, which manages Python for you.
+- Install **Miniforge**: it gives you `conda`, which manages Python for you.
 - Create your camp environment once, then activate it every day:
   - `conda create -n camp python numpy matplotlib`
   - `conda activate camp`
-- **No starter today.** Build your script from scratch, with Claude as your guide.
-- Ask Claude: "Teach me Python variables, loops, and functions with tiny examples I can run" or "Give me five small Python exercises and check my answers."
 
-## Optional side quest: git and GitHub {.smaller}
+## No "starter material" today
 
-- Yesterday's `git clone` is all the git this camp needs. But if you are curious what you just used:
+- Build the app from scratch, with Claude as your guide.
+- Warm up first: ask Claude "Teach me Python variables, loops, and functions with tiny examples I can run."
+- Then build: tell Claude the drafting rules in plain English ("20 students, 5 captains, no repeat captains this week, captains take turns picking...") and ask it to help you build the app **step by step**, explaining each piece.
+- Stuck on the turn-taking? Ask: "How do I loop over the captains in turns, read each pick with input(), and reject names that are taken or misspelled?"
+
+## Side quest: git and GitHub {.smaller}
+
+- Yesterday's `git clone` is all the git this camp needs. Get familiar/learn more about the following:
 - **git** tracks versions of files on your machine; **GitHub** hosts shared copies in the cloud. Together they are how software teams work.
-- Safe places to play and test your understanding:
+- There'are safe places to play and test your git/GitHub understanding:
   - **GitHub Skills** ([skills.github.com](https://skills.github.com)): official hands-on mini-courses in a practice repository (free account needed).
   - **Learn Git Branching** ([learngitbranching.js.org](https://learngitbranching.js.org)): a visual git sandbox in the browser, no account, nothing to install.
   - **first-contributions** ([github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)): make your first real pull request in a beginner-friendly repository.
 
+\
+
+- NOTE: if you don't have a GitHub account, you should create one today. It'll outlast this camp.
+
 ## Your end-of-day talk
 
-- ~10 minutes: run your script live, and tell us one thing about Python that surprised you.
+- ~10 minutes: run your Team Shuffler **live on the real roster**, and tell us one thing about Python that surprised you.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: the side quest above, or a function that does something fun (a countdown, a times table, a tiny guessing game).
+- Stretch goal:
+    - Write an app that remembers the captains and teams from the previous days of the week, and uses that history to shuffle the teams differently today.
+    - We'll use the best application starting tomorrow.
