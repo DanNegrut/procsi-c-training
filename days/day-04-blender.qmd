@@ -14,22 +14,59 @@ format:
     embed-resources: true
 ---
 
+## What is Blender?
+
+- **Blender** is free, open-source software for making **3D pictures and movies**: you build objects, color them, light the scene, aim a camera, and **render** (compute) a final image or animation.
+
+\
+
+- **What it does:** modeling (shape), materials (look), lighting, cameras, animation, and rendering — the same pipeline Hollywood and game studios use, in one app.
+
+\
+
+- **How it works:** everything lives in a 3D scene (objects + lights + camera). You edit that scene in the viewport; when you hit **F12**, a **render engine** (Eevee or Cycles) traces light through the scene and paints the pixels of your PNG.
+
+## A taste of Blender
+
+Four images, all made with Blender:
+
+::: {.blender-gallery}
+<figure><img src="assets/blender-charge.jpg" alt="Charge, a sci-fi film still"><figcaption><em>Charge</em>, Blender Studio, CC BY 4.0</figcaption></figure>
+<figure><img src="assets/blender-sprite-fright.jpg" alt="Sprite Fright movie poster"><figcaption><em>Sprite Fright</em>, Blender Studio, CC BY 4.0</figcaption></figure>
+<figure><img src="assets/blender-big-buck-bunny.png" alt="Big Buck Bunny character render"><figcaption><em>Big Buck Bunny</em>, Blender Foundation, CC BY 3.0</figcaption></figure>
+<figure><img src="assets/blender-tears-of-steel.jpg" alt="Tears of Steel visual-effects frame"><figcaption><em>Tears of Steel</em>, Blender Foundation, CC BY 3.0</figcaption></figure>
+:::
+
 ## Where this fits
 
-- **Blender** is a free, professional 3D tool: modeling, materials, lighting, rendering.
-- You will use it twice more: tomorrow to render your CAD mechanism, and next week to turn simulation numbers into a movie of the sliding brick.
-- Today is about getting comfortable: build a small scene and render one good-looking image.
+- You will use Blender twice: tomorrow to render your CAD mechanism, and next week to turn simulation numbers into a movie of the sliding brick.
+
+\
+
+- Today is about getting started: build a small scene and render one good-looking image.
 
 ## Today's target
 
 - **By 4:00, your team can:** show a rendered still image (a PNG) of a scene you built: a few objects, at least one material with color, a light, and a camera you placed yourself.
-- **Bonus:** make it pretty; a floor plane, a second light, or a shiny material goes a long way.
+    - Make it pretty; a floor plane, a second light, or a shiny material.
+    
+\    
+    
+NOTE: Include in your presentation two Blender-generated images produced by somebody else, and which you really liked. Credit the maker, as we did on the "A taste of Blender" slide.
 
 ## How to start
 
-- Download **Blender** from blender.org (free). You start with the famous default cube.
-- **No starter today.** The default scene already has a cube, a light, and a camera; make it yours.
-- Ask Claude: "I'm brand new to Blender. How do I move around the 3D viewport?" or "How do I add a material and change an object's color in Blender?"
+- Download **Blender** from blender.org. 
+    - You get going with the famous default cube.
+    - Blender is free
+
+\
+
+- **No "starter material" today.** The default scene already has a cube, a light, and a camera; make it yours.
+
+\
+
+- Ask an AI agent: "I'm brand new to Blender. How do I move around the 3D viewport?" or "How do I add a material and change an object's color in Blender?"
 
 ## Blender survival kit {.smaller}
 
@@ -44,4 +81,5 @@ format:
 
 - ~10 minutes: show your render on the projector, and tell us what was hard and what clicked.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: render the same scene in both Eevee and Cycles and show the difference side by side.
+- Stretch target: Generate a library of assets, e.g., a collection of rocks, or a collection of trees, or a collection of chairs, etc.
+    - I might ask you to "donate" to the lab to include in our simulations

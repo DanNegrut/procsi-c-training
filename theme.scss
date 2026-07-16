@@ -58,6 +58,29 @@ $presentation-heading-font-weight: 700;
   h2 { font-size: calc(1.6em / 0.55); }
 }
 
+// Day-4 "A taste of Blender" gallery: 2x2 grid, image heights capped so the
+// mixed portrait/landscape stills line up tidily, with tiny credit captions.
+.reveal .blender-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3em 1.2em;
+  align-items: center;
+  justify-items: center;
+  margin-top: 0.4em;
+}
+.reveal .blender-gallery figure { margin: 0; text-align: center; }
+.reveal .blender-gallery img {
+  max-height: 215px;
+  width: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+.reveal .blender-gallery figcaption {
+  font-size: 0.5em;
+  color: #666;
+  margin-top: 0.25em;
+}
+
 // Give the at-a-glance table a bit more breathing room.
 .reveal table td, .reveal table th { padding: .35em .6em; }
 .reveal table thead th { color: $badger-red; border-bottom: 2px solid $badger-red; }
