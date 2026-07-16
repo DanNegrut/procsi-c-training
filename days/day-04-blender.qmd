@@ -60,11 +60,9 @@ NOTE: Include in your presentation two Blender-generated images produced by some
     - You get going with the famous default cube.
     - Blender is free
 
-\
 
 - **No "starter material" today.** The default scene already has a cube, a light, and a camera; make it yours.
 
-\
 
 - Ask an AI agent: "I'm brand new to Blender. How do I move around the 3D viewport?" or "How do I add a material and change an object's color in Blender?"
 
