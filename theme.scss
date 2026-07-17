@@ -5,7 +5,7 @@ $badger-red: #C5050C;
 
 $body-bg: #ffffff;
 $body-color: #1a1a1a;
-$link-color: $badger-red;
+$link-color: #1155cc;  // standard web-link blue; headings/brand stay Badger red
 $selection-bg: rgba(197, 5, 12, 0.25);
 
 $presentation-heading-color: $badger-red;
@@ -16,6 +16,10 @@ $presentation-heading-font-weight: 700;
 
 .reveal .slide-number { color: $badger-red; }
 .reveal .footer { color: #666; }
+
+// Web links in standard blue (headings and brand accents stay Badger red).
+.reveal a { color: $link-color; }
+.reveal a:hover { color: #0d47a1; }
 
 // Navigation arrows: grey, static (no tutorial bounce), small, and nudged left
 // so the cluster clears the slide number in the bottom-right corner while

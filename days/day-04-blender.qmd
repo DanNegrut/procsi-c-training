@@ -14,7 +14,7 @@ format:
     embed-resources: true
 ---
 
-## What is Blender?
+## What is Blender? {.smaller}
 
 - **Blender** is free, open-source software for making **3D pictures and movies**: you build objects, color them, light the scene, aim a camera, and **render** (compute) a final image or animation.
 

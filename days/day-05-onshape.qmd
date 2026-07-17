@@ -14,15 +14,16 @@ format:
     embed-resources: true
 ---
 
-## Where this fits
+## Where today's work fits in the big picture
 
 - This is how engineers actually work: design a part in **CAD**, then hand it to other tools for rendering, analysis, or simulation.
 - **Onshape** is professional CAD that runs in the browser; you already have your free accounts.
+    - If you already know SolidWorks or Fusion 360, feel free; Onshape is the free, browser-based option.
 - Today closes week 1: CAD in the morning, and your day-4 Blender skills bring the design to life in the afternoon.
 
 ## Today's target
 
-- **By 4:00, your team can:** show a mechanism (a **slider-crank** or a **four-bar linkage**) modeled in Onshape, exported, imported into Blender, and rendered as a nice still image.
+- **By 3:30, your team can:** show a mechanism (a **slider-crank**, a **four-bar linkage**, a **robot arm**, etc.) modeled in Onshape, exported as **OBJ**, imported into Blender, and rendered as a nice still image.
 - **Bonus:** every part has its own material or color in the render.
 
 ## How to start
@@ -30,18 +31,30 @@ format:
 - Sign in at **onshape.com**; create a new document.
 - Sketch a 2D profile, **extrude** it into a part; repeat for each link of your mechanism.
 - Put the parts together in an **Assembly** using **mates** (revolute mate for a pin joint, slider mate for the piston).
-- **No starter today.** Onshape's built-in tutorials plus Claude will get you there.
+- **No "starter slides" today.** Use Onshape's built-in tutorials & Claude.
 - Ask Claude: "Explain sketch, extrude, and mate in Onshape like I'm brand new" or "What is a four-bar linkage? Draw me the idea in words."
 
-## Getting the model into Blender {.smaller}
+## Export your model (Blender & Chrono) {.smaller}
 
-- In Onshape: right-click the tab (Part Studio or Assembly), **Export**, choose **STL** or **GLTF**.
-- In Blender: **File, Import, STL** (or glTF); your part may come in huge or tiny, press **S** to scale.
+- In Onshape: right-click the tab (Part Studio or Assembly), **Export**, choose **OBJ**.
+    - Set **units to meters** (Chrono works in meters; a part exported in mm comes in 1000x too big).
+    - Keep the **`.obj` and its `.mtl` together**; color and material live in the `.mtl`.
+- In Blender: **File, Import, Wavefront (.obj)**; if it comes in huge or tiny, press **S** to scale.
 - Right-click the object, **Shade Smooth**, so curved parts stop looking like disco balls.
 - Then it is yesterday's skills: material, light, camera, **F12**, save the PNG.
+- **Why OBJ?** Chrono reads it directly next week (its meshes are `.obj`), so one export serves both Blender and Chrono.
+
+## Also: two lunar rocks (in Blender) {.smaller}
+
+- Onshape is great for machined parts, but rocks are organic; **Blender** is the right tool here.
+- In Blender, make **two lunar rocks**, about **0.4 m** and **0.2 m** across.
+    - Easy path: add an icosphere, then a **Displace** modifier with a noise texture (or a rock-generator add-on). Ask Claude.
+    - See how Moon rocks look: [Apollo lunar samples](https://ares.jsc.nasa.gov/astromaterials3d/apollo-lunar.htm).
+- **Export each as OBJ (in meters)** and email them to Dan; we'll drop them into the lab's simulations and show them next week.
 
 ## Your end-of-day talk
 
 - ~10 minutes: show the Onshape model (drag the mechanism around live if you can) and your Blender render.
 - **Start or Close with your team's quote of the day.**
 - Stretch goal: in Onshape, animate the mate that drives your mechanism and screen-record it moving.
+- Heads up (today only): talks run **3:30 to 4:00**, then the **photo shoot at 4:00** in the Mechanical Engineering atrium.
