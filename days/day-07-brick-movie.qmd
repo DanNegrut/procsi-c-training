@@ -18,7 +18,7 @@ format:
 
 - Yesterday you computed **where the brick is at every instant**; today you make those numbers visible.
 - This is exactly how professional simulation movies are made: a solver produces positions over time, and a renderer turns them into frames.
-- Everything you need you already have: yesterday's CSV plus your day-4 Blender skills.
+- Everything you need you already have: yesterday's CSV files plus your day-4 Blender skills.
 
 ## Today's target
 
@@ -27,20 +27,31 @@ format:
 
 ## How to start
 
-- Tools: Blender, plus yesterday's `brick_positions.csv`.
+- Tools: Blender, plus yesterday's CSV files.
 - **Starter:** `starters/day-07-blender/animate_brick.py`, a helper script: select your brick object, run the script in Blender's **Scripting** tab, and it turns each CSV row into a keyframe. A sample CSV sits next to it in case yesterday's file is lost.
 - Ask Claude: "What is a keyframe in Blender?" or "How do I render an animation to an MP4 file in Blender?"
 
 ## Making it look like a movie {.smaller}
 
 - The script maps simulation time to frames at 24 fps: 10 s of sliding becomes 240 frames.
-- Backdrop ideas: a large ground plane with a texture, or a sky via **World Properties**; even a single photo as a backdrop plane works.
+- Backdrop ideas: a large ground plane with a texture (e.g., a checkerboard), or a sky via **World Properties**; even a single photo as a backdrop plane works.
 - Render settings: **Eevee**, 1280x720, output format **FFmpeg Video** (MP4); then **Ctrl+F12** renders the animation.
 - Budget your time: 240 frames take a while; do a small test render of 20 frames first.
 - The brick travels 250 m; either pull the camera way back, or have the camera follow the brick (parent the camera to it, or keyframe the camera too).
 
+## Make the physics more challenging {.smaller}
+- Make the brick slide down on an inclined plane.
+    - Play with the friction coefficient $\mu$ to see how it affects the motion.
+    - Give the bring an initial velocity up the plane.
+    - Give the bring an initial velocity down the plane. See if it can slide but stop before the end of the plane.
+- Generate nice movies for the different cases.
+
 ## Your end-of-day talk
 
-- ~10 minutes: play your movie on the projector; tell us one rendering trick you discovered.
+- ~10 minutes: play your movies on the projector; tell us one rendering trick you discovered.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: two bricks racing, one with the force cut off at t = 5 s (yesterday's stretch CSV).
+
+\
+
+- Stretch goal: write the equations of motion of two bricks that are on a flat surface and are connected by a spring-damper element. 
+    - Choose the parameters of the spring-damper element to make the bricks oscillate. Give the bricks some initial velocity to make them oscillate and then generate a movie of the motion.
