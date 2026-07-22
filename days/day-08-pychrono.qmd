@@ -27,14 +27,21 @@ format:
     - You can generate a stack of four bricks, on top of each other, and then you have a ball roll into them and collapse "the tower of bricks".
 
 
-## How to start
+## How to start {.smaller}
 
-- Install PyChrono (in your terminal):
+- **Set up PyChrono first, in its own environment** (the Python version has to match the PyChrono build, which is what tripped us up):
 
   ```bash
-  conda activate camp
-  conda install -c projectchrono pychrono
+  conda create -n chrono -c projectchrono -c conda-forge python=3.12 pychrono matplotlib
+  conda activate chrono
   ```
+
+- **Then confirm it actually imports, before the demo** (this one line is the whole point):
+
+  ```bash
+  python -c "import pychrono, pychrono.irrlicht; print('PyChrono OK')"
+  ```
+  If it prints `PyChrono OK`, you are set. If it errors, grab us or paste the error to Claude.
   \
 
 - **Starter:** `starters/day-08-pychrono/brick_friction.py`

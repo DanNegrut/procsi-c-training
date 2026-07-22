@@ -16,9 +16,10 @@ format:
 
 ## Things happening today
 - Come to the lab at 3:30 pm, will tell you a bit about the lab.
-    - Please wear your ProCSI t-shirt. We'll take a group photo.
-- At 4:00 pm we have the usual "end-of-day" meeting
-- At 6:15 pm we meet on State Street at State Street Brats (603 State St).
+    - You will get your ProCSI t-shirt. We'll take a group photo.
+    - One lab student will show how the AV team uses Chrono for testing autonomous vehicles.
+- At 4:00 pm we have the usual "end-of-day" meeting, in the regular room.
+- At 6:15 pm we meet on State Street at **State Street Brats** (603 State St).
 
 
 ## Where this fits
@@ -38,13 +39,13 @@ format:
 ## Today's target
 
 - **By 4:00, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the rest of us what the model does.
-- **Bonus:** show one place where the generated script needed a human fix, and what you did.
+- Challenge: run the VIPER but operating on SCM terrain (ask Claude with RAG about SCM)
 
 ## How to start
 
-- Tools: your `camp` conda environment with PyChrono from yesterday
+- Tools: your `chrono` conda environment with PyChrono from yesterday
 - Follow the steps in the [GitHub repository](https://github.com/projectchrono/chrono-rag)
-- **No starter file today; the AI is the starter.** 
+- **No starter file today; the AI is what gets you started.** 
     - Describe what you want simulated, in plain English, and iterate.
 - Good first asks: a pendulum, a stack of boxes falling over, a ball bouncing down steps, your day-5 slider-crank.
 - If a run crashes: paste the error back and ask for a fix. That loop, ask, run, read the error, ask again, is real engineering.
@@ -54,10 +55,12 @@ format:
 - Scale up your morning model, or generate a fresh, more ambitious one with chrono-rag.
 - Alternative: pick up an existing model from the Chrono demo collection on GitHub (projectchrono/chrono, under `src/demos/python/`) and bend it to your will.
 - Judge the AI's output like an engineer: does the motion look physically right? Is anything too good to be true?
-- Tomorrow morning we head to State Street, so tonight's talk is the grand finale. Make it count.
+- Tomorrow morning:
+    - The CSULA folks leave Madison. See you next year, Sal!!!
+    - The rest of the crew: head to State Street. For lunch, try **Dotty Dumpling's Dowry**
 
 ## Your end-of-day talk
 
 - ~10 minutes: run your generated model live, tell us what you asked for, what you got, and what you had to fix.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: have chrono-rag generate the tower-of-bricks demo, of day-8, and run it live.
+- Stretch goal: have chrono-rag generate the VIPER rover running on SCM terrain.
