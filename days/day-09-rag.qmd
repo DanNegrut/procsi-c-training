@@ -14,22 +14,38 @@ format:
     embed-resources: true
 ---
 
+## Things happening today
+- Come to the lab at 3:30 pm, will tell you a bit about the lab.
+    - Please wear your ProCSI t-shirt. We'll take a group photo.
+- At 4:00 pm we have the usual "end-of-day" meeting
+- At 6:15 pm we meet on State Street at State Street Brats (603 State St).
+
+
 ## Where this fits
 
-- The capstone day: everything meets. Python, simulation, PyChrono, and the AI tutor you have used all camp.
+- Today is capstone day: Python, simulation, PyChrono, and the AI tutor.
 - Claude is great, but it can misremember a specific library. 
 - **RAG** (retrieval-augmented generation) fixes that: before answering, the AI **looks up the real documentation and source code**, then writes its answer from what it found.
 - **chrono-rag** is RAG pointed at Project Chrono: it searches the actual Chrono code and demos, so the PyChrono scripts it produces use the real API and features of Chrono.
 
+## Why do we talk about this?
+
+- You can use this RAG idea on your own projects.
+- Examples:
+    - You can RAG all your course notes for a class you are taking.
+    - You can RAG the documentation of a library you are using.
+
 ## Today's target
 
-- **By 4:00, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the room what the model does.
+- **By 4:00, your team can:** use chrono-rag to generate a PyChrono model you did not write by hand (a script for a virtual experiment), **run it**, and explain to the rest of us what the model does.
 - **Bonus:** show one place where the generated script needed a human fix, and what you did.
 
 ## How to start
 
-- Tools: your `camp` conda environment with PyChrono from yesterday; I will show you how to reach chrono-rag in the morning demo.
-- **No starter file today; the AI is the starter.** Describe what you want simulated, in plain English, and iterate.
+- Tools: your `camp` conda environment with PyChrono from yesterday
+- Follow the steps in the [GitHub repository](https://github.com/projectchrono/chrono-rag)
+- **No starter file today; the AI is the starter.** 
+    - Describe what you want simulated, in plain English, and iterate.
 - Good first asks: a pendulum, a stack of boxes falling over, a ball bouncing down steps, your day-5 slider-crank.
 - If a run crashes: paste the error back and ask for a fix. That loop, ask, run, read the error, ask again, is real engineering.
 
@@ -44,4 +60,4 @@ format:
 
 - ~10 minutes: run your generated model live, tell us what you asked for, what you got, and what you had to fix.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: have chrono-rag explain a line of its own generated script, then verify the explanation against the Chrono documentation.
+- Stretch goal: have chrono-rag generate the tower-of-bricks demo, of day-8, and run it live.
