@@ -16,33 +16,50 @@ format:
 
 ## Where this fits
 
-- Monday you wrote the integrator yourself. Today a professional simulation engine does it: **Project Chrono**, developed right here at UW-Madison, with **PyChrono** as its Python face.
-- Same brick, but now the engine handles what we skipped: **contact and friction**, in 3D, with live visualization.
+- Monday you wrote the integrator yourself. Today our lab's simulation engine does it: **Project Chrono**, with **PyChrono** as its Python face.
+- Same brick, the engine handles the part that gave us a bit of trouble: **contact and friction**, in 3D, with live visualization.
 - This is the tool the AI will be scripting for you tomorrow.
 
 ## Today's target
 
-- **By 4:00, your team can:** run the brick simulation in PyChrono and **explain how friction changed the answer** versus Monday; then run and **tweak one demo** (the slider-crank, or the Viper rover).
+- **By 4:00 pm:** 
+    - You can run the brick simulation in PyChrono on a flat surface and on an inclined plane. With or without friction.
+    - You can generate a stack of four bricks, on top of each other, and then you have a ball roll into them and collapse "the tower of bricks".
 
 
 ## How to start
 
-- Install (we do it together): `conda activate camp`, then
-  `conda install -c projectchrono pychrono`
-- **Starter:** `starters/day-08-pychrono/brick_friction.py`, a complete, runnable script: the same 2 kg brick, the same 10 N push, but now on a floor with friction. Read it top to bottom; every block has a comment.
-- Ask Claude: "Walk me through this PyChrono script block by block" (paste it in).
+- Install PyChrono (in your terminal):
+
+  ```bash
+  conda activate camp
+  conda install -c projectchrono pychrono
+  ```
+  \
+
+- **Starter:** `starters/day-08-pychrono/brick_friction.py`
+    - A complete, runnable script
+    - The same 2 kg brick, the same 10 N push, on a floor with friction.
+
+\
+
+- Read it top to bottom; every block has a comment.
+    - Ask Claude: "Walk me through this PyChrono script block by block".
 
 ## The friction plot twist {.smaller}
 
 - The floor grips the brick: with friction coefficient $\mu = 0.3$, the friction force is $\mu \times  9.81$ m/s$^2 \times 2$ kg $= 5.9$  N, which fights your 10 N.
 - The brick still accelerates, but slower than Monday's ideal-ice answer. Compare the two position curves.
-- Now set µ = 0.6 in the script: friction can resist up to about 11.8 N, more than you push. The brick does not move at all. One number flips the story.
+- Now set µ = 0.6 in the script. The brick does not move at all. Why?
 - Then pick a demo to run and tweak (both live in the starter folder notes):
   - **Slider-crank** (`demo_MBS_crank_plot.py`): Friday's CAD mechanism, now actually moving, with a matplotlib plot.
   - **Viper rover** (`demo_ROBOT_Viper_Rigid.py`): a planetary rover driving on terrain.
 
 ## Your end-of-day talk
 
-- ~10 minutes: show the brick with friction, explain the µ = 0.6 surprise, and show what you tweaked in your demo.
+- ~10 minutes: 
+    - Show the brick with friction
+    - Explain the µ = 0.6 "surprise"
+    - Show your ball (sphere) hitting the bricks and collapsing the tower.
 - **Start or Close with your team's quote of the day.**
-- Stretch goal: find the µ where the brick just barely starts to move, and back it up with the m a = f reasoning.
+- Stretch goal: Look into the `chrono` GitHub repository and find a demo that you can run and tweak. Run the sim "live", at 4 pm.
