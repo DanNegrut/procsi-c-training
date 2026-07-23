@@ -45,7 +45,7 @@ format:
 ## How to start
 
 - Tools: your `chrono` conda environment with PyChrono from yesterday
-- Follow the steps in the [GitHub repository](https://github.com/projectchrono/chrono-rag)
+- Follow the steps in the [GitHub repository](https://github.com/uwsbel/chrono-rag)
 - **No starter file today; the AI is what gets you started.** 
     - Describe what you want simulated, in plain English, and iterate.
 - Good first asks: ask the agent with RAG to generate a pendulum, a stack of boxes falling over, a ball bouncing down steps, your day-5 slider-crank.
